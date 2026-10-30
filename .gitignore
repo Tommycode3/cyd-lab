@@ -1,0 +1,17 @@
+# PlatformIO
+.pio/
+.vscode/
+*.log
+
+# Secrets (never commit)
+secrets.h
+**/src/secrets.h
+spotify/tools/spotify_credentials.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
